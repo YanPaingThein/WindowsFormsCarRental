@@ -18,6 +18,7 @@ namespace WindowsFormsCarRental
             return isOpen;
         }
 
+        // Change password to Hashed codes
         public static string HashPassword(string password)
         {
             SHA256 sha = SHA256.Create();
